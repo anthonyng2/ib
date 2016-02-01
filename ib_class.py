@@ -9,7 +9,7 @@ if __name__=="__main__":
     callback = IBWrapper()          # Instantiate IBWrapper 
     tws = EClientSocket(callback)   # Instantiate EClientSocket
     host = ""
-    port = 4001
+    port = 7496
     clientId = 5000
     tws.eConnect(host, port, clientId)     # Connect to TWS
     tws.setServerLogLevel(5)
