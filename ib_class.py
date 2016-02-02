@@ -324,5 +324,6 @@ if __name__=="__main__":
 
     
     # Disconnect from TWS
+    time.sleep(2)
     tws.isConnected()
     tws.eDisconnect()
