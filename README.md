@@ -1,32 +1,29 @@
 # ib Files
 
 Released 1 Feb 2016
+Updated 12 May 2016 with [Tutorial](https://nbviewer.jupyter.org/github/anthonyng2/ib/blob/master/IbPy%20Features%20Demonstration.ipynb)
 
 * ib_class.py : Demonstrates how to call IB using IbPy for account and other information. The codes are intentionally kept in self contained groups. E.g., Account and Portfolio, Orders etc.
 * IBWrapper.py : Wrapper functions to receive data from IB.
 
-These codes have been tested on gateway Build 952.2f and TWS and **ONLY on paper trading account**. Please carry out your own test on your own account.
-It has been tested on Anaconda Spyder 2.3.8 on Windows 7. It is best to be read in conjuction with the IB Java API manual. You can find that here 
-> https://www.interactivebrokers.com/download/JavaAPIGettingStarted.pdf
+These codes have been tested on gateway Build 952.2f and TWS and **ONLY on paper trading account**. Please carry out your own test on your own account.It is best to be read in conjuction with the [IB Java API](https://www.interactivebrokers.com/download/JavaAPIGettingStarted.pdf) manual.
 
 # IbPy - Interactive Brokers Python API
-IbPy was originally written by Troy Melhase. It can be obtained via 
-> https://github.com/blampe/IbPy
+[IbPy](https://github.com/blampe/IbPy) was originally written by Troy Melhase.
 
 IB TWS and Gateway can be obtained via 
 > https://www.interactivebrokers.com.hk/en/index.php?f=16042
 
 # Introduction
-At NYP, Singapore, we utilise the Interactive Brokers Platform for our Financial Training Centre 
-> https://www.facebook.com/NYP-Financial-Training-Centre-410452655762342/
+At NYP, Singapore, we utilise the Interactive Brokers Platform for our [Financial Training Centre](https://www.facebook.com/NYP-Financial-Training-Centre-410452655762342/)
 
-Interactive Brokers offers a trading lab for education institution. You can find more info at 
-> https://www.interactivebrokers.com/en/index.php?f=14839&ns=T. 
+[Interactive Brokers](https://www.interactivebrokers.com/en/index.php?f=14839&ns=T) offers a trading lab for education institution. 
 
-The instructor receives a "master" account with the ability to view all the students account information. However, as our class size often varies from 20 to 40, extracting key information from each account can be tedious and time consuming. Hence the reason for turning to IB API and writing these codes. The students' Net Liquidation Value (NLV) are download automatically and posted to plotly 
-> https://plot.ly/
+The instructor receives a "master" account with the ability to view all the students account information. However, as our class size often varies from 20 to 40, extracting key information from each account can be tedious and time consuming. Hence the reason for turning to IB API and writing these codes. The students' Net Liquidation Value (NLV) are download automatically and posted to [plotly](https://plot.ly/)
 
 It allows the students to view each others' NLV. Naturally, this encourages competition, learning and camaraderie as well as communication and sharing.
+
+The following example is a great way to start. However, if you are comfortable with Python and Pandas, you can check out this [Jupyter tutorial](https://nbviewer.jupyter.org/github/anthonyng2/ib/blob/master/IbPy%20Features%20Demonstration.ipynb)
 
 # Example
 Below is a sample code snippets for Account and Portfolio Group. Best to leave the portion prior to Account and Portfolio alone as it sets up the necessary state to receive information from IB.
