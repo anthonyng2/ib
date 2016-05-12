@@ -1,7 +1,7 @@
 # ib Files
 
 Released 1 Feb 2016
-Updated 12 May 2016 with [Tutorial](https://nbviewer.jupyter.org/github/anthonyng2/ib/blob/master/IbPy%20Features%20Demonstration.ipynb)
+Updated 12 May 2016 with [Tutorial](https://nbviewer.jupyter.org/github/anthonyng2/ib/blob/master/IbPy%20Demo.ipynb)
 
 * ib_class.py : Demonstrates how to call IB using IbPy for account and other information. The codes are intentionally kept in self contained groups. E.g., Account and Portfolio, Orders etc.
 * IBWrapper.py : Wrapper functions to receive data from IB.
@@ -11,8 +11,7 @@ These codes have been tested on gateway Build 952.2f and TWS and **ONLY on paper
 # IbPy - Interactive Brokers Python API
 [IbPy](https://github.com/blampe/IbPy) was originally written by Troy Melhase.
 
-IB TWS and Gateway can be obtained via 
-> https://www.interactivebrokers.com.hk/en/index.php?f=16042
+IB TWS and Gateway can be obtained via [IB website](https://www.interactivebrokers.com.hk/en/index.php?f=16042)
 
 # Introduction
 At NYP, Singapore, we utilise the Interactive Brokers Platform for our [Financial Training Centre](https://www.facebook.com/NYP-Financial-Training-Centre-410452655762342/)
@@ -23,7 +22,7 @@ The instructor receives a "master" account with the ability to view all the stud
 
 It allows the students to view each others' NLV. Naturally, this encourages competition, learning and camaraderie as well as communication and sharing.
 
-The following example is a great way to start. However, if you are comfortable with Python and Pandas, you can check out this [Jupyter tutorial](https://nbviewer.jupyter.org/github/anthonyng2/ib/blob/master/IbPy%20Features%20Demonstration.ipynb)
+The following example is a great way to start. However, if you are comfortable with Python and Pandas, you can check out this [Jupyter tutorial](https://nbviewer.jupyter.org/github/anthonyng2/ib/blob/master/IbPy%20Demo.ipynb)
 
 # Example
 Below is a sample code snippets for Account and Portfolio Group. Best to leave the portion prior to Account and Portfolio alone as it sets up the necessary state to receive information from IB.
