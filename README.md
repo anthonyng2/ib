@@ -21,7 +21,7 @@ At NYP, Singapore, we utilise the Interactive Brokers Platform for our [Financia
 
 The instructor receives a "master" account with the ability to view all the students account information. However, as our class size often varies from 20 to 40, extracting key information from each account can be tedious and time consuming. Hence the reason for turning to IB API and writing these codes. The students' Net Liquidation Value (NLV) are download automatically and posted to [plotly](https://plot.ly/)
 
-It allows the students to view each others' NLV. Naturally, this encourages competition, learning and camaraderie as well as communication and sharing.
+It allows the students to view each others' NLV. Naturally, this encourages competition, learning and camaraderie as well as communication and sharing. You can find a sample notebook [here](http://nbviewer.jupyter.org/github/anthonyng2/ib/blob/master/FTC_NLV_Demo.ipynb)
 
 The following example is a great way to start. However, if you are comfortable with Python and Pandas, you can check out this [Jupyter tutorial](https://nbviewer.jupyter.org/github/anthonyng2/ib/blob/master/IbPy%20Demo.ipynb)
 
