@@ -1,8 +1,9 @@
 '''
 Wrapper - Organised by groups. E.g., Accont and Portfolio group, Orders group etc
 2016-01-31
+Updated 20 Nov 2016 for Python 3.
 '''
-
+from __future__ import print_function 
 from ib.ext.EWrapper import EWrapper
 from ib.ext.Contract import Contract
 from ib.ext.ExecutionFilter import ExecutionFilter
@@ -183,7 +184,7 @@ class IBWrapper(EWrapper):
 
     def marketDataType(self, reqId, marketDataType):
         setattr(self, 'market_DataType', marketDataType)
-        print "market_DataType" + str(self.market_DataType)
+        print("market_DataType" + str(self.market_DataType))
 
 
 
@@ -200,13 +201,13 @@ class IBWrapper(EWrapper):
 
     def error(self, id=None, errorCode=None, errorString=None):
         #print id
-        print [id, errorCode, errorString]
+        print([id, errorCode, errorString])
 
     def error_0(self, strval=None):
-        print "error_0"
+        print("error_0")
 
     def error_1(self, id=0, errorCode=None, errorMsg=None):
-        print "error_1"
+        print("error_1")
 
     '''def error_0(self, strval):
         pass
@@ -279,7 +280,7 @@ class IBWrapper(EWrapper):
     def updateMktDepthL2(self, tickerId, position, marketMaker, operation, 
                          side, price, size):
         # I don't get any of this so I can't test it. Following are just place holders. 
-        print "blah blah. You have L2 data!!!"
+        print("blah blah. You have L2 data!!!")
         update_MktDepthL2 = self.update_MktDepthL2
         update_MktDepthL2.append((tickerId, position, operation, side, 
                                   price, size))  
@@ -295,7 +296,7 @@ class IBWrapper(EWrapper):
     # News Bulletin ############################################################
     def updateNewsBulletin(self, msgId, msgType, message, origExchange):
         # During the time I test this, I don't get anything. Can't verify. Sorry. 
-        print "You get News!!!"
+        print("You get News!!!")
         self.update_NewsBulletin_msgId = msgId
         self.update_NewsBulletin_msgType = msgType
         self.update_NewsBulletin_message = message
@@ -386,7 +387,7 @@ class IBWrapper(EWrapper):
 
     # Fundamental Data #########################################################
     def fundamentalData(self, reqId, data):
-        print "Getting Fundamental Data Feed Through"
+        print("Getting Fundamental Data Feed Through")
         self.fundamental_Data_reqId = reqId
         self.fundamental_Data_data = data
         
