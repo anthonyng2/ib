@@ -90,4 +90,4 @@ I'm very interested in your experience with the code. Please do drop me a note w
 Anthony Ng
 
 
-Look for me @ [algo-hunter.com](www.algo-hunter.com)
+Look for me @ [algo-hunter](www.algo-hunter.com)
