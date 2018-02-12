@@ -90,6 +90,4 @@ I'm very interested in your experience with the code. Please do drop me a note w
 Anthony Ng
 
 
-You can email me on anthony underscore ng @ nyp dot edu dot sg
-
-> Email: anthony_ng@nyp.edu.sg
+Look for me @ [algo-hunter.com](www.algo-hunter.com)
