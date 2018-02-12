@@ -15,8 +15,6 @@ These codes have been tested on gateway Build 952.2f and TWS and **ONLY on paper
 IB TWS and Gateway can be obtained via [IB website](https://www.interactivebrokers.com.hk/en/index.php?f=16042)
 
 # Introduction
-At NYP, Singapore, we utilise the Interactive Brokers Platform for our [Financial Training Centre](https://www.facebook.com/NYP-Financial-Training-Centre-410452655762342/)
-
 [Interactive Brokers](https://www.interactivebrokers.com/en/index.php?f=14839&ns=T) offers a trading lab for education institution. 
 
 The instructor receives a "master" account with the ability to view all the students account information. However, as our class size often varies from 20 to 40, extracting key information from each account can be tedious and time consuming. Hence the reason for turning to IB API and writing these codes. The students' Net Liquidation Value (NLV) are download automatically and posted to [plotly](https://plot.ly/)
