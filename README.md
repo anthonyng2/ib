@@ -7,7 +7,7 @@ Updated 12 May 2016 with [Tutorial](https://nbviewer.jupyter.org/github/anthonyn
 * ib_class.py : Demonstrates how to call IB using IbPy for account and other information. The codes are intentionally kept in self contained groups. E.g., Account and Portfolio, Orders etc.
 * IBWrapper.py : Wrapper functions to receive data from IB.
 
-These codes have been tested on gateway Build 952.2f and TWS and **ONLY on paper trading account**. Please carry out your own test on your own account.It is best to be read in conjuction with the [IB Java API](https://www.interactivebrokers.com/download/JavaAPIGettingStarted.pdf) manual.
+These codes have been tested on gateway Build 952.2f and TWS and **ONLY on paper trading account**. Please carry out your own test on your own account.It is best to be read in conjuction with the [IB Java API](http://interactivebrokers.github.io/tws-api/#gsc.tab=0) manual.
 
 # IbPy - Interactive Brokers Python API
 [IbPy](https://github.com/blampe/IbPy) was originally written by Troy Melhase.
