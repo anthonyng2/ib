@@ -444,7 +444,8 @@ class IBWrapper(EWrapper):
 class contract():
     def create_contract(self, symbol, secType, exchange, currency,
                         right = None, strike = None, expiry = None,
-                        multiplier = None, tradingClass = None, includeExpired=None):
+                        multiplier = None, tradingClass = None, 
+                        localSymbol = None, includeExpired=None):
         contract = Contract()
         contract.m_symbol = symbol
         contract.m_secType = secType
@@ -455,6 +456,7 @@ class contract():
         contract.m_expiry = expiry
         contract.m_multiplier = multiplier
         contract.m_tradingClass = tradingClass
+        contract.m_localSymbol = localSymbol
         contract.m_includeExpired = includeExpired
         return contract
         
