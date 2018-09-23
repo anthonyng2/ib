@@ -3,7 +3,7 @@ from datetime import datetime
 from IBWrapper import IBWrapper, contract
 from ib.ext.EClientSocket import EClientSocket
 from ib.ext.ScannerSubscription import ScannerSubscription
-
+from __future__ import print_function
 
 if __name__=="__main__":
     callback = IBWrapper()          # Instantiate IBWrapper 
