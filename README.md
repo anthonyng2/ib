@@ -21,7 +21,7 @@ The instructor receives a "master" account with the ability to view all the stud
 
 It allows the students to view each others' NLV. Naturally, this encourages competition, learning and camaraderie as well as communication and sharing. You can find a sample notebook [here](http://nbviewer.jupyter.org/github/anthonyng2/ib/blob/master/FTC_NLV_Demo.ipynb)
 
-The following example is a great way to start. However, if you are comfortable with Python and Pandas, you can check out this [Jupyter tutorial](https://nbviewer.jupyter.org/github/anthonyng2/ib/blob/master/IbPy%20Demo.ipynb)
+The following example is a great way to start. However, if you are comfortable with Python and Pandas, you can check out this [Jupyter tutorial](https://nbviewer.jupyter.org/github/anthonyng2/ib/blob/master/IbPy%20Demo%20v2018-04-05.ipynb)
 
 # Example
 Below is a sample code snippets for Account and Portfolio Group. Best to leave the portion prior to Account and Portfolio alone as it sets up the necessary state to receive information from IB.
